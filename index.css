@@ -1,0 +1,18 @@
+
+/**
+ * Woopra
+ */
+
+.logo[data-logo="Woopra"] {
+  width: 3.482328293em;
+  /* (1818/427.18) * (1-.11-.06) - .05 */
+}
+
+.logo[data-logo="Woopra"] > * {
+  background-image: url(images/logo.svg);
+  margin: .06em 0 .11em -.05em;
+}
+
+.logo[data-logo="Woopra"].monochromatic > * {
+  background-image: url(images/logo-monochromatic.svg);
+}
